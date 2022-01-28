@@ -38,8 +38,8 @@ OUT_OF_RANGE_LANE_DIST_THRESHOLD = 5.0  # 5 meters
 ROI_ISOCONTOUR = 5.0
 
 # argoverse-api/map_files
-ROOT = Path(__file__).resolve().parent.parent.parent / "map_files"
-
+#ROOT = Path(__file__).resolve().parent.parent.parent / "map_files"
+ROOT = "/cephshare/compsci/pramitd/datasets/argoverse/argoverse-tracking/map_files"
 # known City IDs from newest to oldest
 MIAMI_ID = 10316
 PITTSBURGH_ID = 10314
